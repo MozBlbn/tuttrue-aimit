@@ -14,7 +14,6 @@ chmod +x "$INSTALL_DIR/$BINARY_NAME"
 if [[ -f "$INSTALL_DIR/$BINARY_NAME" ]]; then
     echo "Installation successful!"
     echo "Binary installed to: $INSTALL_DIR/$BINARY_NAME"
-    echo "Config file installed to: $CONFIG_DIR/$CONFIG_FILE"
 else
     echo "Installation failed. Please check the script and repository."
     exit 1
